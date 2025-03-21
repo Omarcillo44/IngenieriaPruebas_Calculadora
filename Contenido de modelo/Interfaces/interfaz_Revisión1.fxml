@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="1080.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+  <items>
+    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="1080.0" prefWidth="800.0" SplitPane.resizableWithParent="false">
+         <children>
+            <VBox prefHeight="980.0" prefWidth="700.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+               <children>
+                  <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="700.0">
+                     <children>
+                        <TextArea editable="false" maxHeight="-Infinity" maxWidth="-Infinity" nodeOrientation="RIGHT_TO_LEFT" prefHeight="200.0" prefWidth="700.0" text="4+4+4+4" wrapText="true">
+                           <font>
+                              <Font size="35.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                  </HBox>
+                  <Separator prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Separator>
+                  <VBox alignment="CENTER" prefHeight="860.0" VBox.vgrow="NEVER">
+                     <children>
+                        <GridPane alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="700.0" prefWidth="800.0">
+                          <columnConstraints>
+                            <ColumnConstraints halignment="CENTER" hgrow="NEVER" prefWidth="200.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="NEVER" prefWidth="200.0" />
+                            <ColumnConstraints halignment="CENTER" hgrow="NEVER" minWidth="10.0" prefWidth="200.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="NEVER" minWidth="10.0" prefWidth="200.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="-Infinity" prefHeight="175.0" valignment="CENTER" vgrow="NEVER" />
+                            <RowConstraints maxHeight="-Infinity" prefHeight="175.0" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="175.0" valignment="CENTER" vgrow="NEVER" />
+                              <RowConstraints prefHeight="175.0" valignment="CENTER" vgrow="NEVER" />
+                            <RowConstraints prefHeight="175.0" valignment="CENTER" vgrow="NEVER" />
+                          </rowConstraints>
+                           <children>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="C">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="E" GridPane.columnIndex="1">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="D" GridPane.columnIndex="2">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="/" GridPane.columnIndex="3">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="7" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="+×÷–" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="X" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="4" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="C" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="E" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="D" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="1" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="." GridPane.columnIndex="2" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                              <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="120.0" prefWidth="120.0" text="✕" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </GridPane>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <VBox alignment="TOP_CENTER" SplitPane.resizableWithParent="false">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Historial de Operaciones" textAlignment="CENTER">
+               <font>
+                  <Font size="45.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+            </Text>
+            <Separator prefWidth="200.0">
+               <VBox.margin>
+                  <Insets bottom="25.0" top="25.0" />
+               </VBox.margin>
+            </Separator>
+            <ScrollPane fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="790.0">
+               <content>
+                  <TableView maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="900.0" prefWidth="790.0">
+                    <columns>
+                      <TableColumn editable="false" minWidth="-1.0" prefWidth="100.0" sortable="false" text="# Operación" />
+                      <TableColumn editable="false" maxWidth="400.0" minWidth="-1.0" prefWidth="400.0" text="Operación" />
+                        <TableColumn editable="false" maxWidth="290.0" minWidth="-1.0" prefWidth="290.0" text="Resultado" />
+                    </columns>
+                  </TableView>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+  </items>
+</SplitPane>
